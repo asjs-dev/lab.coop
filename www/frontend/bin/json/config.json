@@ -1,0 +1,9 @@
+{
+	"fps": 24,
+	"resizeInterval": 100,
+	"fadeInterval": 400,
+	"quickNotificationTimeout": 1500,
+	"baseWidth": 480,
+	"facebookAppId": "188996551441178",
+	"backendURL": "../../backend/REST/v1/"
+}

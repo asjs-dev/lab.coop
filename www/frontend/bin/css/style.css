@@ -1,0 +1,287 @@
+body {
+	//overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+	background-color: #A3ABB1;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-image: url(../images/background.png);
+}
+
+/* Notfication Window */
+.notification_window {
+	background-color: #FFFFFF;
+}
+
+.notification_button {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 42px;
+	text-align: center;
+	color: rgba( 255, 255, 255, 0.7 );
+	
+	cursor: pointer;
+	
+	background-color: #2C82C9;
+}
+
+.notification_button:hover {
+	color: rgba( 255, 255, 255, 1 );
+}
+
+.notification_button:active {
+	color: rgba( 255, 255, 255, 1 );
+}
+
+.notification_title {
+	font-size: 20px;
+	font-weight: 700;
+	color: #FFFFFF;
+	background-color: #2C82C9;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+	
+.notification_content {
+	font-size: 14px;
+	font-weight: 700;
+	color: #393939;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+/* --------------------------------------- */
+
+/* Preloader */
+.preloader {
+	background-color: rgba( 0, 0, 0, 0.5 );
+}
+/* --------------------------------------- */
+
+/* Content */
+.modal_background {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-image: url(../images/background.png);
+}
+
+.logo {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(../images/logo.png);
+}
+
+.button {
+	background-position: center center;
+	background-size: 100% 100%;
+	background-image: url(../images/button_normal.png);
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+.button:hover {
+	background-image: url(../images/button_over.png);
+}
+
+.add_button {
+	background-position: center center;
+	background-size: contains;
+	background-repeat: no-repeat;
+	background-image: url(../images/buttons/add_button_icon.png);
+	background-color: #2C82C9;
+}
+
+.add_button:hover {
+	background-color: #2969B0;
+}
+
+.text_input {
+	background-color: #FFFFFF;
+	border: 2px solid #2C82C9;
+	color: #28324E;
+	font-weight: 600;
+	text-align: center;
+}
+
+.label {
+	background-color: #FFFFFF;
+}
+
+.label_text {
+	color: #28324E;
+	font-weight: 700;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.label_icon {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.menu_background {
+	background-color: #2C82C9;
+}
+
+.menu_button,
+.menu_button_calories,
+.menu_button_statistics,
+.menu_button_food_list,
+.menu_button_settings {
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.menu_button_calories {
+	background-image: url(../images/menu/calories_button.png);
+}
+
+.menu_button_statistics {
+	background-image: url(../images/menu/statistics_button.png);
+}
+
+.menu_button_food_list {
+	background-image: url(../images/menu/food_list_button.png);
+}
+
+.menu_button_settings {
+	background-image: url(../images/menu/settings_button.png);
+}
+
+.quick_notification_type_warning,
+.quick_notification_type_success,
+.quick_notification_type_message {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 700;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.quick_notification_type_warning {
+	background-color: #B8312F;
+}
+
+.quick_notification_type_success {
+	background-color: #41A85F;
+}
+
+.quick_notification_type_message {
+	background-color: #F37934;
+}
+
+.food_button_selector,
+.drink_button_selector,
+.sport_button_selector,
+.food_list_cell_icon {
+	background-position: center center;
+	background-size: 60% 60%;
+	background-repeat: no-repeat;
+	background-color: #D1D5D8;
+	border: 2px solid #EFEFEF;
+}
+
+.food_list {
+	//white-space: nowrap;
+	//overflow-x: hidden !important;
+	//overflow-y: scroll !important;
+	//z-index: 0;
+	//-webkit-overflow-scrolling: touch !important;
+}
+
+.food_list_cell {}
+
+.food_list_cell_box {
+	background-color: #EFEFEF;
+}
+
+.food_list_cell_icon {
+	border: none;
+}
+
+.food_button_selector,
+.food_list_cell_icon_food {
+	background-image: url(../images/icons/food.png);
+}
+
+.drink_button_selector,
+.food_list_cell_icon_drink {
+	background-image: url(../images/icons/drink.png);
+}
+
+.sport_button_selector,
+.food_list_cell_icon_sport {
+	background-image: url(../images/icons/sport.png);
+}
+
+.food_list_cell_title {
+	color: #28324E;
+	font-weight: 700;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.food_list_cell_calories {
+	color: #28324E;
+	font-weight: 500;
+	overflow: hidden;
+	white-space: nowrap;
+	font-style: italic;
+}
+
+.food_list_cell_delete_button {
+	background-position: center center;
+	background-size: 70% 70%;
+	background-repeat: no-repeat;
+	background-image: url(../images/buttons/delete_button_icon.png);
+	background-color: #D1D5D8;
+}
+
+.food_list_cell_delete_button:hover {
+	background-color: #A38F84;
+}
+
+.calorie_list_label_good,
+.calorie_list_label_bad {
+	font-weight: 700;
+	overflow: hidden;
+	white-space: nowrap;
+	font-style: italic;
+	text-align: right;
+}
+
+.statistics_list_cell_title_good,
+.statistics_list_cell_title_bad {
+	color: #28324E;
+	font-weight: 700;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.statistics_list_cell_title_good,
+.calorie_list_label_good {
+	color: #41A85F;
+}
+
+.calorie_list_label_bad,
+.statistics_list_cell_title_bad {
+	color: #B8312F;
+}
+
+.statistics_list_cell_line_good {
+	background-color: #41A85F;
+}
+
+.statistics_list_cell_line_bad {
+	background-color: #B8312F;
+}
+/* --------------------------------------- */

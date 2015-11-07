@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+Options -Indexes
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule REST/v1/(.*)$ rest.php?v=1&request=$1 [QSA,NC,L]
+
+php_flag display_errors on
+</IfModule>

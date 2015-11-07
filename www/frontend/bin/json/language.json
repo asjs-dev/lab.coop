@@ -1,0 +1,99 @@
+{
+	"supported_languages": [ "en" ],
+	"default_language": "en",
+	"elements": {
+		"title": {
+			"en": "Lab.coop - Calories"
+		},
+		"notification_ok_button": {
+			"en": "Ok"
+		},
+		"notification_cancel_button": {
+			"en": "Cancel"
+		},
+		"notification_delete_title": {
+			"en": "Delete"
+		},
+		"notification_delete_content": {
+			"en": "Are you sure you want to delete this item? ({{name}})"
+		},
+		"notification_tip_title": {
+			"en": "TIP"
+		},
+		"notification_add_entry_content": {
+			"en": "To add a new entry, press the \"+\" button at the bottom"
+		},
+		"notification_alert_title": {
+			"en": "Alert"
+		},
+		"notification_food_exists_in_calories_list": {
+			"en": "This entry ({{name}}) exists in your daily calories list!"
+		},
+		"facebook_login_button_label": {
+			"en": "Login with facebook"
+		},
+		"calories_button_label": {
+			"en": "Calories"
+		},
+		"statistics_button_label": {
+			"en": "Statistics"
+		},
+		"food_list_button_label": {
+			"en": "Food List"
+		},
+		"settings_button_label": {
+			"en": "Settings"
+		},
+		"daily_calories_label": {
+			"en": "Amount of daily calories"
+		},
+		"food_list_label": {
+			"en": "Food list"
+		},
+		"statistics_label": {
+			"en": "Statistics"
+		},
+		"add_food_entry_label": {
+			"en": "Add food entry"
+		},
+		"add_calorie_entry_label": {
+			"en": "Add calorie entry"
+		},
+		"save": {
+			"en": "Save"
+		},
+		"cancel": {
+			"en": "Cancel"
+		},
+		"unknow_error": {
+			"en": "UNKNOW ERROR"
+		},
+		"success": {
+			"en": "SUCCESS"
+		},
+		"authentication_error": {
+			"en": "Authentication error"
+		},
+		"food_name_placeholder": {
+			"en": "Food name"
+		},
+		"drink_name_placeholder": {
+			"en": "Drink name"
+		},
+		"sport_name_placeholder": {
+			"en": "Sport name"
+		},
+		"empty_name_or_calories": {
+			"en": "Empty name or calories"
+		},
+		"calorie_unit": {
+			"en": "cal"
+		},
+		"add_new_food": {
+			"en": "Add new food entry"
+		},
+		"today": {
+			"en": "Today"
+		}
+	}
+}
