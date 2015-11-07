@@ -1,5 +1,6 @@
 <?php
 	require_once( dirname( __FILE__ ) . "/User.class.php" );
+	require_once( dirname( __FILE__ ) . "/SQL.class.php" );
 	
 	class Session {
 		
@@ -17,7 +18,7 @@
 				$userResult = $user->getByFacebookId( $facebookId );
 				if ( $userResult == NULL ) {
 					$userResult = $user->create( array( "facebookId" => $facebookId ) );
-					$userId = $userResult->insert_id;
+					$userId = SQL::insertId();
 				} else $userId = $userResult[ "id" ];
 			
 				$_SESSION[ "userId" ] = $userId;

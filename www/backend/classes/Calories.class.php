@@ -5,8 +5,9 @@
 		
 		public function getList() {
 			$food = new Food();
+			$userId =	$_SESSION[ "userId" ];
 			
-			$result = SQL::query( "SELECT * FROM calories;" );
+			$result = SQL::query( "SELECT * FROM calories WHERE user_id = " . $userId . ";" );
 			$response = array();
 			for ( $i = 0; $i < $result->num_rows; $i++ ) {
 				$line = SQL::fetchAssoc( $result );

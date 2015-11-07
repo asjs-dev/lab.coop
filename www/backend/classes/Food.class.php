@@ -11,7 +11,9 @@
 		}
 		
 		public function getList() {
-			$result = SQL::query( "SELECT * FROM foods;" );
+			$userId =	$_SESSION[ "userId" ];
+			
+			$result = SQL::query( "SELECT * FROM foods WHERE user_id = " . $userId . ";" );
 			$response = array();
 			for ( $i = 0; $i < $result->num_rows; $i++ ) {
 				$line = SQL::fetchAssoc( $result );

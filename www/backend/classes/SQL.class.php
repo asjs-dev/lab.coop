@@ -13,6 +13,10 @@
 			self::$sql_link->close();
 		}
 		
+		public static function insertId() {
+			return self::$sql_link->insert_id;
+		}
+		
 		public static function query( $query ) {
 			return self::$sql_link->query( $query );
 		}
